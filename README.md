@@ -19,9 +19,10 @@ Once you have downloaded the files, you must run it with [VS Code](https://code.
 In the initial run that we did for this project is in VS Code so the steps will be applicable for VS Code.
 1. To run the detector, open the folder that has these files
 2. Create an environment to download necessary imports for the project OR download the necessary imports directly to your computer
-3. Open the file phishsite url.ipynb
-4. Run all the command starting from the top to the bottom
-5. The last code in the file phishsite url.ipynb, you can edit the url so you can test out other sites
+3. Extract the phishing_site_urls.rar to get the excel (This is important in running the code)
+4. Open the file phishsite url.ipynb
+5. Run all the command starting from the top to the bottom
+6. The last code in the file phishsite url.ipynb, you can edit the url so you can test out other sites
 ```
 predict_bad = ['marketplace.axieinfinity.com/'] #Edit the url
 predict_good = ['www.phishprotection.com/content/phishing-prevention/'] #Edit the url
@@ -36,3 +37,8 @@ print("="*50)
 print()
 print('The 2nd website is: ',result2)
 ```
+You can run the test in a seperate code in demotest.py but it is safe to run it inside the phishsite url.ipynb
+
+# Update and Check the Data File
+The file .rar you can see in the repository is the excel file that contains data of sites that is a phishing site. This project
+depends on data and runs an algorithm to check possible sites that is a phishing site.
