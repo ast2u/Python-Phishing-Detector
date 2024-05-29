@@ -1,5 +1,5 @@
 # Python-Phishing-Detector
-A Python Project that detects if the url that you inputted is a phishing site.
+A Python/JupyterNotebook Project that detects if the url that you inputted is a phishing site.
 
 It uses algorithm and Machine Learning to know if the website is a phishing site.
 The algorithm use is:
@@ -42,3 +42,5 @@ You can run the test in a seperate code in demotest.py but it is safe to run it 
 # Update and Check the Data File
 The file .rar you can see in the repository is the excel file that contains data of sites that is a phishing site. This project
 depends on data and runs an algorithm to check possible sites that is a phishing site.
+
+![Verify the data file](cloud-1.png)
