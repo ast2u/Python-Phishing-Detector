@@ -22,8 +22,9 @@ In the initial run that we did for this project is in VS Code so the steps will 
 3. Open the file phishsite url.ipynb
 4. Run all the command starting from the top to the bottom
 5. The last code in the file phishsite url.ipynb, you can edit the url so you can test out other sites
-`predict_bad = ['marketplace.axieinfinity.com/']`
-`predict_good = ['www.phishprotection.com/content/phishing-prevention/']`
+```
+predict_bad = ['marketplace.axieinfinity.com/'] #Edit the url
+predict_good = ['www.phishprotection.com/content/phishing-prevention/'] #Edit the url
 loaded_model = pickle.load(open('phishing.pkl', 'rb'))
 #predict_bad = vectorizers.transform(predict_bad)
 # predict_good = vectorizer.transform(predict_good)
@@ -33,4 +34,5 @@ print('The 1st website is: ',result)
 print()
 print("="*50)
 print()
-print('The 2nd website is: ',result2)`
+print('The 2nd website is: ',result2)
+```
